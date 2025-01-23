@@ -5,10 +5,10 @@
   max-width: 600px;
   margin: 0 auto;
   border-radius: 8px;
+  text-align: center; /* Center align text */
 }
 
 .bank-title {
-  text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
 }
@@ -55,10 +55,12 @@
 .form-container {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center align form inputs */
 }
 
 .form-group {
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .form-label {
@@ -73,6 +75,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100%;
+  text-align: center; /* Center align input text */
 }
 
 .form-input:focus,
@@ -82,13 +85,11 @@
 }
 
 .balance-display {
-  text-align: center;
   font-size: 1.2em;
   margin: 10px 0;
 }
 
 .account-status {
-  text-align: center;
   font-size: 1.1em;
   color: #555;
 }
@@ -98,7 +99,6 @@
 }
 
 .transaction-history h3 {
-  text-align: center;
   font-size: 1.2em;
 }
 
@@ -110,6 +110,7 @@
 .transaction-history li {
   padding: 8px;
   border-bottom: 1px solid #ccc;
+  text-align: center; /* Center align transaction list items */
 }
 
 .transaction-history li:last-child {
